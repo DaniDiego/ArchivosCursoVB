@@ -21,7 +21,7 @@ Module Module1
         Dim palabra As String = frase.Substring(ultimaPosicion + 1)
         Console.WriteLine(palabra)
 
-        'Cuantas palabras empiezna por l
+        'Cuantas palabras empiezan por l
         Dim palabras() As String = frase.Split(" "c)
         Dim contador As Integer = 0
         For Each p As String In palabras
